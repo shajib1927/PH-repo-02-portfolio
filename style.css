@@ -1,3 +1,135 @@
 body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0px;
+    background-image: url(/web_images/top-banner.png);
+    background-repeat: no-repeat;
+    background-position: top-left;
+}
+
+section, #exp {
+    display: flex;
+}
+
+img {
+    width: 40vw;
+    height: auto;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+h2 {
+    font-size: 48px;
+}
+h3 {
+    font-size: 30px;
+}
+
+p {
+    font-size: 20px;
     font-family: 'Bai Jamjuree', sans-serif;
+    letter-spacing: 1px;
+    line-height: 32px;
+    text-align: justify;
+}
+
+#tom {
+    color: rgb(17, 0, 255);
+}
+
+#jerry {
+    color: rgb(236, 126, 0);
+}
+
+#text1, #text2 {
+    width: 90%;
+}
+
+#text1 {
+    margin-right: 10px;
+}
+
+#text2 {
+    margin-top: 70px;
+    margin-left: 50px;
+    margin-right: 150px;
+}
+
+a {
+    text-decoration: none;
+    font-family: 'Bai Jamjuree', sans-serif;
+    letter-spacing: 1px;
+    background-image: linear-gradient(rgb(0, 4, 255),rgb(132, 71, 245));
+    padding: 10px 30px;
+    color: cornsilk;
+    border-radius: 5px;
+    display: inline-block;
+    margin-top: 25px;
+}
+
+#exp {
+    margin: 30px 500px 50px;
+}
+
+.exptxt {
+    margin: 10px 3%;
+    padding: 10px 50px 70px;
+    box-shadow: 5px 5px 20px 5px #504e4e73;
+}
+
+.expttl {
+    font-size: 40px;
+    letter-spacing: 1px;
+    color: rgb(105, 4, 102);
+}
+
+.expttl-txt {
+    font-size: 22px;
+    letter-spacing: 1px;
+    color: orange;
+}
+
+#exp-txt2 {
+    border-left: 10px solid;
+    border-image: linear-gradient(rgb(47, 0, 255), rgb(57, 250, 240));
+    border-image-slice: 1;
+}
+
+#exp-txt1 {
+    border-left: 10px solid;
+    border-image: linear-gradient(rgb(255, 0, 0), rgb(250, 215, 57));
+    border-image-slice: 1;
+}
+
+.section-jerry {
+    margin-bottom: 70px;
+    background-image: url(/web_images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.text-tom {
+    
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+#imgtom {
+    margin-right: 20px;
+    margin-top: 10px;
+}
+
+.section-exp {
+    margin-bottom: 60px;
+    margin-right: 20px;
+}
+
+#footer {
+    font-size: 14px;
+    font-family: 'Bai Jamjuree', sans-serif;
+    letter-spacing: 2px;
+    line-height: 32px;
+    text-align: center;
+    margin-bottom: 30px;
 }
